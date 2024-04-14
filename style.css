@@ -95,23 +95,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 .author-info {
   background-color: #333333;
   padding: 20px;
   margin-top: 50px;
   color: #cccccc;
   display: flex;
-  
+  justify-content: center; /* Aligns items horizontally */
   align-items: center; /* Aligns items vertically */
 }
+
 .author-info p {
   margin: 0; /* Remove default margin */
-  align-items: center;
 }
 
-
 .author-info img {
-  display: inline-block;
   width: 100px;
   height: 100px;
   border-radius: 50%;
