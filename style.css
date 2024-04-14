@@ -1,6 +1,6 @@
 .cropdiv {
   max-width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: 400px;
   overflow: hidden;
   position: relative;
 
@@ -9,7 +9,7 @@
 
 .cropimg {
   position: absolute;
-  top: -50%; /* Adjust the percentage to crop more or less from the top */
+  top: -50%; 
   left: 0;
   right: 0;
   bottom: 0;
@@ -57,7 +57,7 @@ body {
 }
 
 .image-container img {
-    width: 50%; /* Make each image take up half of the container width */
+    width: 50%; 
     height: auto; /* Maintain aspect ratio */
 }
 }
