@@ -73,15 +73,6 @@ body {
   margin-right: 10px; /* Add some spacing between images */
 }
 
-.author-info {
-  background-color: #333333;
-  padding: 20px;
-  color: #cccccc;
-  display: flex;
-  justify-content: space-between; /* Aligns items with space between */
-  align-items: center; /* Aligns items vertically */
-}
-
 .author-info p {
   margin: 0; /* Remove default margin */
 }
@@ -110,11 +101,12 @@ a:hover {
   margin-top: 50px;
   color: #cccccc;
   display: flex;
-  justify-content: space-between; /* Aligns items with space between */
+  
   align-items: center; /* Aligns items vertically */
 }
 .author-info p {
   margin: 0; /* Remove default margin */
+  align-items: center;
 }
 
 
