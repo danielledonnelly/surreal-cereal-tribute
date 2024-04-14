@@ -64,12 +64,10 @@ body {
 
 .image-container {
   display: flex;
-  margin-bottom: 20px; /* Add some spacing between the screenshots and the author info */
 }
 
 .single-image-container {
   display: flex;
-  margin-bottom: 20px; /* Add some spacing between the screenshots and the author info */
   justify-content: center;
 }
 
@@ -83,6 +81,7 @@ figcaption {
   font-style: italic;
   font-size: small;
   text-align: center;
+  margin-top: 1%;
 }
 a {
   color: #3498db;
