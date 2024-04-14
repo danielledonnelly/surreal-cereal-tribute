@@ -45,7 +45,6 @@ body {
 }
 .cropdiv {
   overflow: hidden;
-  margin-bottom: 20px;
 }
 .cropimg {
   width: 100%;
@@ -83,6 +82,7 @@ figcaption {
   text-align: center;
   margin-top: 1%;
 }
+
 a {
   color: #3498db;
   text-decoration: none;
