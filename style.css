@@ -1,38 +1,21 @@
-.cropdiv {
-  max-width: 100%;
-  height: 400px; /* Adjust the height as needed */
-  overflow: hidden;
-  position: relative;
-
+.full-width {
+  width: 100vw !important;
 }
 
-
-.cropimg {
-  position: absolute;
-  top: -50%; /* Adjust the percentage to crop more or less from the top */
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-}
-
-img {
-  width: 100%;
-}
-
-.nutella {
-  top: -40%; 
-  bottom: -90%;
-}
+/* .nutella {
+  top: -20%; 
+  bottom: -20%;
+} */
 
 body {
-  background-color: #1f1f1f;
-  color: #d4d4d4;
+  background-color: #1f1f1f !important;
+  color: #d4d4d4 !important;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding-left: 200px !important;
+  padding-right: 200px !important;
 }
+
 #main {
   max-width: 800px;
   margin: 0 auto;
@@ -43,14 +26,16 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-.cropdiv {
-  overflow: hidden;
-}
-.cropimg {
-  width: 100%;
-  height: auto;
-  display: block;
 
+
+
+
+.cropimg1 {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center 40%;
+}
   .image-container {
     display: flex;
 }
@@ -59,10 +44,10 @@ body {
     width: 50%; /* Make each image take up half of the container width */
     height: auto; /* Maintain aspect ratio */
 }
-}
 
 .image-container {
   display: flex;
+  max-width: 800px;
 }
 
 .single-image-container {
@@ -71,9 +56,10 @@ body {
 }
 
 .screenshot {
-  width: 50%; /* Make each image take up half of the container width */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add some spacing between images */
+  width: 100% !important;
+  object-fit: cover;
+  align-self: center;
+  display: flex;
 }
 
 figcaption {
@@ -92,8 +78,8 @@ a:hover {
 }
 
 body {
-  background-color: #1f1f1f;
-  color: #d4d4d4;
+  background-color: #1f1f1f !important;
+  color: #d4d4d4 !important;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px; /* Add padding to the body */
@@ -106,31 +92,31 @@ body {
 
 .footer {
   background-color: #333333;
-  padding: 20px;
-  margin-top: 50px;
   color: #cccccc;
   text-align: center; 
 }
 
 .author-info {
   background-color: #3b3838; 
-  padding: 20px;
+  padding-top: 20px;
   color: #ffffff; 
   display: flex;
   justify-content: center; 
   align-items: center; 
   margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .author-info p {
   margin: 0;
+
 }
 
 .author-image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 20px;
   border: 4px solid #1f1f1f; 
 }
 
@@ -140,4 +126,9 @@ body {
   height: 100px;
   border-radius: 50%;
   margin-right: 20px;
+}
+
+img {
+  max-height: 400px;
+  max-width: 400px;
 }
