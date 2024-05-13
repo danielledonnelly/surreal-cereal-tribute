@@ -2,24 +2,29 @@
   width: 100vw !important;
 }
 
+a {
+  color: lightblue !important;
+}
+
 /* .nutella {
   top: -20%; 
   bottom: -20%;
 } */
+
+p {
+  font-size: 16px;
+}
 
 body {
   background-color: #1f1f1f !important;
   color: #d4d4d4 !important;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding-left: 200px !important;
-  padding-right: 200px !important;
 }
 
-#main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+main {
+  padding-left: 350px !important;
+  padding-right: 350px !important;
 }
 
 #tribute-info {
@@ -27,27 +32,26 @@ body {
   font-weight: bold;
 }
 
-
-
-
 .cropimg1 {
   width: 100%;
   display: block;
   object-fit: cover;
   object-position: center 40%;
 }
-  .image-container {
-    display: flex;
-}
 
-.image-container img {
-    width: 50%; /* Make each image take up half of the container width */
-    height: auto; /* Maintain aspect ratio */
+.cropimg2 {
+  min-width: 100%; /* Increase the width to make it wider */
+  max-height: 500px !important;
+  height: auto; /* Allow the height to adjust proportionally */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  object-position: center; /* Center the visible area of the image vertically at the top */
 }
 
 .image-container {
   display: flex;
-  max-width: 800px;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  max-width: 100% !important;
 }
 
 .single-image-container {
@@ -56,10 +60,9 @@ body {
 }
 
 .screenshot {
-  width: 100% !important;
-  object-fit: cover;
   align-self: center;
   display: flex;
+  margin: 0 !important;
 }
 
 figcaption {
@@ -82,7 +85,7 @@ body {
   color: #d4d4d4 !important;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px; /* Add padding to the body */
+  padding-top: 20px !important;
 }
 
 .container {
@@ -94,11 +97,12 @@ body {
   background-color: #333333;
   color: #cccccc;
   text-align: center; 
+  position: fixed !important;
 }
 
 .author-info {
   background-color: #3b3838; 
-  padding-top: 20px;
+  padding-top: 10px;
   color: #ffffff; 
   display: flex;
   justify-content: center; 
@@ -110,7 +114,6 @@ body {
 
 .author-info p {
   margin: 0;
-
 }
 
 .author-image {
@@ -131,4 +134,12 @@ body {
 img {
   max-height: 400px;
   max-width: 400px;
+}
+
+/* Small screen media query */
+@media (max-width: 1000px) {
+  main {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }
