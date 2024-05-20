@@ -40,11 +40,11 @@ main {
 }
 
 .cropimg2 {
-  min-width: 100%; /* Increase the width to make it wider */
+  min-width: 100%; /
   max-height: 500px !important;
-  height: auto; /* Allow the height to adjust proportionally */
-  object-fit: cover; /* Maintain aspect ratio while covering the container */
-  object-position: center; /* Center the visible area of the image vertically at the top */
+  height: auto; 
+  object-fit: cover;
+  object-position: center;
 }
 
 .image-container {
