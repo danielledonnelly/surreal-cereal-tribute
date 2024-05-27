@@ -6,11 +6,6 @@ a {
   color: lightblue !important;
 }
 
-/* .nutella {
-  top: -20%; 
-  bottom: -20%;
-} */
-
 p {
   font-size: 16px;
 }
@@ -121,11 +116,13 @@ body {
 
 .author-info {
   text-align: left;
+  
 }
 
 .author-info p {
   margin: 5px 0;
   font-size: 14px;
+  
 }
 
 img {
